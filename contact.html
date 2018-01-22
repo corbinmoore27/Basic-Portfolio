@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,47 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Contact</title>
 </head>
+
 <body>
-        <h1 class="nameheader">Corbin Moore</h1>
-            <header>
-                <div1>
-                <a class="headlink" href="index.html">About </a>|
-                <a class="headlink" href="portfolio.html">Portfolio </a>|
-                <a class="headlink" href="contact.html">Contact</a>
-                </div1>
-            </header>
-        <div id="entirecontent">   
-            <div id="maincontent">
-                <h1>Contact</h1>
+    <h1 class="nameheader">Corbin Moore</h1>
+    <header>
+        <nav>
+            <a class="headlink" href="index.html">About </a>|
+            <a class="headlink" href="portfolio.html">Portfolio </a>|
+            <a class="headlink" href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <div id="entirecontent">
+        <div id="maincontent">
+            <h1>Contact</h1>
 
-                <hr>
+            <hr>
 
-                <!-- Need to put in the form boxes and such here -->
-                <p>Form stuff</p>
-            </div>
+            <!-- Need to put in the form boxes and such here -->
+            <form action="">
+                Name
+                <br>
+                <input placeholder="Joe Dohn" size="96%" type="text" name="name">
+                <br> Email
+                <br>
+                <input placeholder="example@address.com" size="96%" type="email" name="email">
+                <br> Message
+                <br>
+                <textarea name="Message" cols="94" rows="15"></textarea>
+                <br>
+                <input class="submit" type="submit" value="Sumbit">
+            </form>
+        </div>
 
-            <div id="sidebar">
-                <h2>Connect with Me</h2>
-                <hr>
-                <img class="sidebarimages" src="assets/images/github.png" alt="Github logo/link">
-                <img class="sidebarimages" src="assets/images/linkedin.png" alt="LinkedIn logo/link">
-                <img class="sidebarimages" src="assets/images/stackoverflow.png" alt="Stackoverflow logo/link">
-            </div>
-            <footer>&#169 Copyright 2018 Corbin Moore</footer>
-        </div>    
+        <div id="sidebar">
+            <h2>Connect with Me</h2>
+            <hr>
+            <a href="https://github.com/corbinmoore27" target="_blank"><img class="sidebarimages" src="assets/images/github.png" alt="Github logo/link"></a>
+            <a href="https://www.linkedin.com/in/corbin-moore-822a20155/" target="_blank"><img class="sidebarimages" src="assets/images/linkedin.png" alt="LinkedIn logo/link"></a>
+            <a href="https://stackexchange.com/users/12580760/corbin-moore" target="_blank"><img class="sidebarimages2" src="assets/images/stackoverflow.png" alt="Stackoverflow logo/link"></a>
+        </div>
+    </div>
+    <footer class="footbord">&copy Copyright 2018 Corbin Moore</footer>
 </body>
-</html> 
+
+</html>

@@ -1,5 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1, h2 {
    color: #4aaaa5;
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
@@ -21,10 +26,16 @@ p {
     width: 241px;
     height: 320px;
     margin-top: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+.abouttext {
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 header {
-    font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     background-color: #ffffff;
     width: 100%;
@@ -52,6 +63,13 @@ header {
     padding-top: 10px;
 }
 
+.sidebarimages2 {
+    width: 59px;
+    height: 59px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+}
+
 #maincontent {
     background-color: #ffffff;
     width: 590px;
@@ -60,6 +78,7 @@ header {
     float: left;
     margin-right: 20px;
     margin-top: 60px;
+    position: relative;
 }
 
 .nameheader {
@@ -82,8 +101,8 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .headlink {
@@ -93,6 +112,72 @@ footer {
 
 }
 
-div1 {
+nav {
     padding-right: 50px;
+}
+
+form {
+    color: #777777;
+    /* Don't know how to get the border of the message box to change colors */
+    border-color: #777777;
+}
+
+.submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: -20px;
+    grid-row-gap: 10px;
+    margin-left: 25px;
+}
+
+.gridItem {
+    width: 260px;
+    height: 175px;
+}
+
+.banner {
+    padding: 20px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 20px;
+    width: 220px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.row1 {
+    position: absolute;
+    top: 200px;
+}
+
+.column1 {
+    position: absolute;
+    left: 45px;
+}
+
+.column2 {
+    position: absolute;
+    left: 327px;
+}
+
+.row2 {
+    position: absolute;
+    top: 385px;
+}   
+
+.row3 {
+    position: absolute;
+    top: 570px;
+}
+
+.footbord {
+    border-top: 7px solid #4aaaa5;
 }
